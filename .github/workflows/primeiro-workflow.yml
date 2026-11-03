@@ -22,5 +22,5 @@ jobs:
           ls -la ${{ github.workspace }}
 
       - name: Status final
-        run:  |
+        run: |
            echo "Status da execução: ${{ job.status }}."
